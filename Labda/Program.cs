@@ -1,4 +1,4 @@
-﻿internal class Program
+﻿internal class Program // 1.0 - Use of Lambda, List Creation, and foreach loop.
 {
     public static void Main()
     {
@@ -9,7 +9,7 @@
         var ListedNo = from number in numbers
                        where number %2 == 0
                        select number ;
-
+       
         // the lambda expression -- which
         var EvenNums = numbers.Where(number => number > 30) ;
 
