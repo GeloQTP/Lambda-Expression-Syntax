@@ -1,4 +1,4 @@
-﻿internal class Program
+﻿internal class Program // 1.1 - changes
 {
     public static void Main()
     {
@@ -10,7 +10,7 @@
                        where number %2 == 0
                        select number ;
 
-        // the lambda expression -- which
+        // the lambda expression -- which we filter the values of number to only greater than 30
         var EvenNums = numbers.Where(number => number > 30) ;
 
 
