@@ -14,7 +14,7 @@
         var EvenNums = numbers.Where(number => number > 30) ;
 
 
-
+        // will display the list of numbers that is divisible by two at the same time higher than 30
        foreach ( var EvenNum in EvenNums )
         {
             if( EvenNum %2 == 0)
